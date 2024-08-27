@@ -96,7 +96,7 @@ Setup Instructions
    to ensure pipeline robustness and recovery from failures.
 
 #Orchestration Script
-The orchestration script (data_pipeline.py) is provided in the airflow/dags directory. It includes:
+The orchestration script (data_pipeline_dag.py) is provided in the airflow/dags directory. It includes:
     - Data extraction from SQL.
     - Data cleaning and transformation.
     - Insights generation.
