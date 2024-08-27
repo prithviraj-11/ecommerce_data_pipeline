@@ -58,29 +58,29 @@ Setup Instructions
 #Data Structures and Time Complexities
 ##SQL Tables
 1. customers: Contains customer details.
- - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT) assuming indexed columns.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
 2. orders: Contains order details.
- - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT) assuming indexed columns.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
 3. order_items: Contains details of items in orders.
- - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT) assuming indexed columns.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
 4. products: Contains product details.
- - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT) assuming indexed columns.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
 5. categories: Contains product categories. 
- - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT) assuming indexed columns.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
 6. reviews: Contains product reviews.
- - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT) assuming indexed columns.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
 ##NoSQL Collections
 1. aggregated_data: Stores aggregated results from the data pipeline.
- - Time Complexity: O(1) for basic operations (e.g., INSERT, FIND) assuming indexed fields.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, FIND).
 
 2. insights_generated_data: Stores insights generated from the data.
- - Time Complexity: O(1) for basic operations (e.g., INSERT, FIND) assuming indexed fields.
+ - Time Complexity: O(1) for basic operations (e.g., INSERT, FIND).
 
 ##Data Structures Used in the Pipeline
 #DataFrames (Pandas):
@@ -92,15 +92,17 @@ Setup Instructions
  - Solution: Add a last_updated timestamp column to tables and filtered data based on this 
    timestamp. (Implementation Pending)
  - Data Transformation Complexity: Handling complex joins and aggregations.
- - Handling Errors and Fault Tolerance: It is pending due to time concerns but it is important 
-   to ensure pipeline robustness and recovery from failures.
+ - Handling Errors and Fault Tolerance: It is pending due to time constraints, but it is 
+   important to ensure pipeline robustness and recovery from failures.
 
 #Orchestration Script
-The orchestration script (data_pipeline_dag.py) is provided in the airflow/dags directory. It includes:
+ - The orchestration script (data_pipeline_dag.py) is provided in the airflow/dags directory. 
+ - It includes:
     - Data extraction from SQL.
     - Data cleaning and transformation.
     - Insights generation.
     - Data loading into MongoDB.
 
 #Sample Data
-Sample data scripts are included to help you populate the SQL tables with sample records. The files are named insert_sample_data.sql.
+ - Sample data scripts are included to help you populate the SQL tables with sample records.
+ - The file is named insert_sample_data.sql.
