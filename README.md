@@ -99,7 +99,8 @@ Setup Instructions
  - The orchestration script (data_pipeline_dag.py) is provided in the airflow/dags directory. 
  - It includes:
     - Data extraction from SQL.
-    - Data cleaning and transformation.
+    - Data cleaning.
+    - Data transformation.
     - Insights generation.
     - Data loading into MongoDB.
 
