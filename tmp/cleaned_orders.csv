@@ -1,0 +1,9 @@
+order_id,customer_id,order_date,total_amount,status
+101,1,2024-07-01,150.5,Completed
+102,2,2024-07-02,200.0,Completed
+103,1,2024-07-03,300.75,Completed
+104,3,2024-07-04,120.25,Pending
+105,4,2024-07-05,250.1,Completed
+106,5,2024-07-06,166.25,Completed
+107,5,2024-07-07,377.68,Pending
+108,3,2024-07-08,0.0,Pending

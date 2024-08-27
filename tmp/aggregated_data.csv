@@ -1,0 +1,4 @@
+customer_id,name,email,country,total_amount_spent,total_orders,average_order_value,total_products_ordered,average_rating
+1,Jay Shinde,jay@gmail.com,USA,451.25,2,225.625,5,3.5
+3,Akash More,akash.more@gmail.com,UK,120.25,1,120.25,1,4.0
+4,Dinesh More,dinesh.more@gmail.com,Australia,250.1,1,250.1,2,2.0
