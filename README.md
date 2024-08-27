@@ -56,7 +56,7 @@ Setup Instructions
  - Trigger the data_pipeline DAG manually or wait for the automated schedule.
 
 #Data Structures and Time Complexities
-##SQL Tables
+##MySQL Tables
 1. customers: Contains customer details.
  - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
@@ -75,7 +75,7 @@ Setup Instructions
 6. reviews: Contains product reviews.
  - Time Complexity: O(1) for basic operations (e.g., INSERT, SELECT).
 
-##NoSQL Collections
+##MongoDB(NoSQL) Collections
 1. aggregated_data: Stores aggregated results from the data pipeline.
  - Time Complexity: O(1) for basic operations (e.g., INSERT, FIND).
 
@@ -98,7 +98,7 @@ Setup Instructions
 #Orchestration Script
  - The orchestration script (data_pipeline_dag.py) is provided in the airflow/dags directory. 
  - It includes:
-    - Data extraction from SQL.
+    - Data extraction from MySQL.
     - Data cleaning.
     - Data transformation.
     - Insights generation.
